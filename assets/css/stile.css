@@ -13,10 +13,6 @@ img
 {
   display: block;
 }
-a
-{
-  color: black;
-}
 /* |||||||||| INIZIO |||||||||| */
 body
 {
@@ -26,18 +22,48 @@ body
 /* |||||||||| HEADER |||||||||| */
 header
 {
-  background-color: pink;
+  background-image: url('../img/jumbo.png');
+  background-size: cover;
 }
-.rosa
+header h2
 {
-  background-color: rgb(255, 147, 147);
+  font-size: 3rem;
+}
+.testo-centrale
+{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.testo-centrale p
+{
+  margin: 0 0 2vw 0;
+}
+.arrow-down::before
+{
+  content: "\2193";
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0 0.5vw 0 0;
 }
 /* |||||||||| NAV |||||||||| */
 nav
 {
-  background-color: rgb(252, 86, 86);
+  padding: 1vw;
 }
-
+nav li
+{
+  margin: 0 1vw;
+  font-size: bold;
+}
+/* ---------- Link Testo Bianco ---------- */
+header, nav, header a, nav a
+{
+  color: white;
+}
+.btn-scaricamac, .btn-apribrowser
+{
+  padding: 0.7vw 1.5vw; 
+  margin: 0 1vw;
+}
 /* |||||||||| MAIN |||||||||| */
 main
 {
