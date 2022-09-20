@@ -37,22 +37,33 @@ header h2
 .testo-centrale p
 {
   margin: 0 0 2vw 0;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
-.arrow-down::before
+/* .arrow-down::before
 {
   content: "\2193";
+  font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
   margin: 0 0.5vw 0 0;
+} */
+.nav-btn-accedi
+{
+  font-weight: 600;
 }
 /* |||||||||| NAV |||||||||| */
 nav
 {
-  padding: 1vw;
+  padding: 1vw 1vw 3vw;
 }
 nav li
 {
   margin: 0 1vw;
   font-size: bold;
+}
+nav ul
+{
+  font-weight: bold;
 }
 /* ---------- Link Testo Bianco ---------- */
 header, nav, header a, nav a
@@ -62,6 +73,16 @@ header, nav, header a, nav a
 .header-sezione-bottoni
 {
   margin: 0 0 10vw;
+}
+.freccia-giu
+{
+  font-size: 1rem;
+  margin: 0 0.6vw 0 0;
+  font-weight: bold;
+}
+.btn-apribrowser
+{
+  background-color: #23272a;
 }
 .btn-scaricamac, .btn-apribrowser
 {
