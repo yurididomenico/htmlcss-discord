@@ -165,7 +165,7 @@ header, nav, header a, nav a, footer a
 }
 .viola
 {
-  background-color: #758ad8;
+  background-color: #91a0dc;
 }
 .testo-viola
 {
@@ -192,6 +192,7 @@ footer
 .footer-left img
 {
   width: 1vw;
+  display: inline;
 }
 .footer-left span
 {
@@ -222,7 +223,6 @@ footer
   font-size: 0.8rem;
   background-color: #93a2de;
 }
-/* |||||||||| AREA TEST |||||||||| */
 .grigiochiaro
 {
   background-color: #f6f6f6;
@@ -232,6 +232,93 @@ footer
   rotate: 180deg;
 }
 
+/* |||||||||| HOVER |||||||||| */
+nav img:hover
+{
+  opacity: 0.7;
+  transition-duration: 300ms;
+}
+nav a:not(.nav-btn-accedi):hover
+{
+  border-bottom: 5px solid #223f97;
+  border-top: 5px solid #223f97;
+  border-radius: 50%;
+  padding-top: 0.3vw;
+  padding-bottom: 0.3vw;
+  transition-duration: 300ms;
+}
+.nav-btn-accedi:hover,
+.btn-scaricamac:hover
+{
+ background-color: rgb(202, 202, 202);
+ transition-duration: 300ms;
+}
+.btn-apribrowser:hover
+{
+  background-color: rgb(70, 70, 70);
+  transition-duration: 300ms;
+}
+
+.fa-twitter:hover
+{
+  color: #30a2ef;
+  transition-duration: 300ms;
+}
+.fa-instagram:hover
+{
+  /* color: #f5008b; */
+  color: #9e4a92;
+  transition-duration: 300ms;
+}
+.fa-facebook:hover
+{
+  color: #4c68a8;
+  transition-duration: 300ms;
+}
+.fa-youtube:hover
+{
+  color: #fd000d;
+  transition-duration: 300ms;
+}
+
+.footer-sezione-finale :first-child:hover
+{
+  opacity: 0.8;
+}
+
+.main-testofinale-btn a:hover
+{
+  background-color: #7986b6;
+  transition-duration: 300ms;
+}
+.footer-left span:hover
+{
+  font-size: 1.2rem;
+  width: 1.8vw;
+  transition-duration: 300ms;
+}
+.footer-left span a:hover
+{
+  color: rgb(194, 194, 194);
+}
+.footer-right h4:hover
+{
+  background: linear-gradient(to right, #788bd6, #aab4dd);
+  width: 50%;
+  border-radius: 30px;
+  color: black;
+  padding-left: 1vw;
+  transition-duration: 300ms;
+}
+.footer-right a:not(.grow-1):hover
+{
+  border-top: 3px solid  #7790d8;
+  border-bottom: 3px solid #223f97;
+  border-radius: 50%;
+  
+  transition-duration: 100ms;
+}
+/* |||||||||| AREA TEST |||||||||| */
 
 
 /* |||||||||| AREA TEST |||||||||| */
