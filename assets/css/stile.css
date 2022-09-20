@@ -137,6 +137,9 @@ header, nav, header a, nav a
 {
   font-size: 1.4rem;
   font-weight: 800;
+  background-image: url('../img/stars.svg');
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 .main-testofinale-btn
 {
@@ -147,7 +150,6 @@ header, nav, header a, nav a
 .main-testofinale-btn a
 {
   padding: 0.6vw 1vw;
-  opacity: 0.8;
 }
 .btn
 {
@@ -164,10 +166,13 @@ header, nav, header a, nav a
 {
   color: #758ad8;
 }
-/* .bg-onda
+.bg-onda
 {
   background-image: url('../img/wave.svg');
-} */
+  background-repeat: repeat;
+  width: 130vh;
+  height: 40vh;
+}
 /* |||||||||| FOOTER |||||||||| */
 footer
 {
@@ -208,13 +213,14 @@ footer
 {
   padding: 0.4vw 0;
 }
-/* .footer-right li > ul
-{
-  margin: 1vw 0;
-} */
 .footer-sezione-finale
 {
-  border-top: 1px solid #444f70;
+  border-top: 2px solid #444f70;
+}
+.footer-sezionefinale-btn
+{
+  font-size: 0.8rem;
+  background-color: #93a2de;
 }
 /* |||||||||| AREA TEST |||||||||| */
 
