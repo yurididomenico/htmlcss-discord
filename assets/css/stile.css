@@ -9,15 +9,7 @@
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
 }
-img
-{
-  display: block;
-}
 /* |||||||||| INIZIO |||||||||| */
-body
-{
-  background-color: lightgrey;
-}
 
 /* |||||||||| HEADER |||||||||| */
 header
@@ -90,36 +82,44 @@ header, nav, header a, nav a
   margin: 0 1vw;
 }
 /* |||||||||| MAIN |||||||||| */
-main
-{
-  background-color: rgb(255, 212, 131);
-}
-.sezione
+.main-sezione-ltr, .main-sezione-rtl
 {
   padding: 5vw 0;
 }
+.main-sezione-ltr
+{
+  text-align: right;
+}
+.main-sezione-rtl
+{
+  text-align: left; 
+}
 .main-img
 {
-  flex-basis: 58%;  
-  background-color: orange;
+  flex-basis: 68%;
   padding: 2vw;
 }
 .main-descrizione-img
 {
-  flex-basis: 40%;
-  background-color: rgb(253, 176, 33);
+  flex-basis: 30%;
   padding: 2vw;
+  font-size: 2rem;
+  text-align: left;
+}
+.main-descrizione-img p
+{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 2vw 0;
 }
 .main-img-column
 {
-  width: 100%;  
-  background-color: orange;
+  width: 100%;
   padding: 2vw;
 }
 .main-descrizione-img-column
 {
   width: 100%;
-  background-color: rgb(253, 176, 33);
   padding: 2vw;
 }
 .btn
@@ -131,19 +131,13 @@ main
 }
 /* |||||||||| FOOTER |||||||||| */
 
-footer
-{
-  background-color: rgb(129, 235, 129);
-}
 .footer-left
 {
   flex-basis: 20%;
-  background-color: rgb(34, 194, 34);
 }
 .footer-right
 {
   flex-basis: 75%;
-  background-color: rgb(34, 194, 34);
 }
 /* .footer-right li > ul
 {
