@@ -92,7 +92,7 @@ header, nav, header a, nav a
 }
 .main-sezione-rtl
 {
-  text-align: left; 
+  text-align: left;
 }
 .main-img
 {
@@ -112,15 +112,41 @@ header, nav, header a, nav a
   font-weight: 600;
   margin: 2vw 0;
 }
-.main-img-column
+.main-img-column, .main-img-column img
 {
   width: 100%;
-  padding: 2vw;
 }
 .main-descrizione-img-column
 {
   width: 100%;
   padding: 2vw;
+  font-size: 3rem;
+  margin: 10vw 0 0;
+}
+.main-descrizione-img-column h2
+{
+  font-size: 3rem;
+}
+.main-descrizione-img-column p
+{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1vw 0;
+}
+.main-testofinale
+{
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+.main-testofinale-btn
+{
+  font-weight: 600;
+  margin: 2vw 0 8vw;
+  font-size: 1.2rem;
+}
+.main-testofinale-btn a
+{
+  padding: 0.6vw 1vw;
 }
 .btn
 {
@@ -129,8 +155,20 @@ header, nav, header a, nav a
   padding: 0.5vw;
   margin: 1vw 0;
 }
+.viola
+{
+  background-color: #90a2df;
+}
+/* .bg-onda
+{
+  background-image: url('../img/wave.svg');
+} */
 /* |||||||||| FOOTER |||||||||| */
-
+footer
+{
+  background-color: #23272a;
+  color: white;
+}
 .footer-left
 {
   flex-basis: 20%;
