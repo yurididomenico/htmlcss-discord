@@ -59,6 +59,10 @@ header, nav, header a, nav a
 {
   color: white;
 }
+.header-sezione-bottoni
+{
+  margin: 0 0 10vw;
+}
 .btn-scaricamac, .btn-apribrowser
 {
   padding: 0.7vw 1.5vw; 
