@@ -147,6 +147,7 @@ header, nav, header a, nav a
 .main-testofinale-btn a
 {
   padding: 0.6vw 1vw;
+  opacity: 0.8;
 }
 .btn
 {
@@ -157,7 +158,11 @@ header, nav, header a, nav a
 }
 .viola
 {
-  background-color: #90a2df;
+  background-color: #758ad8;
+}
+.testo-viola
+{
+  color: #758ad8;
 }
 /* .bg-onda
 {
@@ -168,14 +173,40 @@ footer
 {
   background-color: #23272a;
   color: white;
+  padding: 5vw 0;
 }
 .footer-left
 {
   flex-basis: 20%;
 }
+.footer-left h3
+{
+  font-size: 2rem;
+  padding: 0 0 1vw;
+}
+.footer-left img
+{
+  width: 1vw;
+}
+.footer-left span
+{
+  font-size: 0.8rem;
+}
+.footer-icone
+{
+  padding: 1vw 0;
+}
+.footer-icone i
+{
+  padding: 0 1vw 0 0;
+}
 .footer-right
 {
   flex-basis: 75%;
+}
+.footer-right li
+{
+  padding: 0.4vw 0;
 }
 /* .footer-right li > ul
 {
