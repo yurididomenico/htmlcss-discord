@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Reset */
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+img
+{
+  display: block;
+}
+a
+{
+  color: black;
+}
+/* |||||||||| INIZIO |||||||||| */
+body
+{
+  background-color: lightgrey;
+}
+
+/* |||||||||| HEADER |||||||||| */
+header
+{
+  background-color: pink;
+}
+.rosa
+{
+  background-color: rgb(255, 147, 147);
+}
+/* |||||||||| NAV |||||||||| */
+nav
+{
+  background-color: rgb(252, 86, 86);
+}
+
+/* |||||||||| MAIN |||||||||| */
+main
+{
+  background-color: rgb(255, 212, 131);
+}
+.sezione
+{
+  padding: 5vw 0;
+}
+.main-img
+{
+  flex-basis: 58%;  
+  background-color: orange;
+  padding: 2vw;
+}
+.main-descrizione-img
+{
+  flex-basis: 40%;
+  background-color: rgb(253, 176, 33);
+  padding: 2vw;
+}
+.main-img-column
+{
+  width: 100%;  
+  background-color: orange;
+  padding: 2vw;
+}
+.main-descrizione-img-column
+{
+  width: 100%;
+  background-color: rgb(253, 176, 33);
+  padding: 2vw;
+}
+.btn
+{
+  background-color: #90a2df;
+  width: 8vw;
+  padding: 0.5vw;
+  margin: 1vw 0;
+}
+/* |||||||||| FOOTER |||||||||| */
+
+footer
+{
+  background-color: rgb(129, 235, 129);
+}
+.footer-left
+{
+  flex-basis: 20%;
+  background-color: rgb(34, 194, 34);
+}
+.footer-right
+{
+  flex-basis: 75%;
+  background-color: rgb(34, 194, 34);
+}
+/* .footer-right li > ul
+{
+  margin: 1vw 0;
+} */
+.footer-sezione-finale
+{
+  border-top: 1px solid #444f70;
+}
+/* |||||||||| AREA TEST |||||||||| */
+
+
+
+
+/* |||||||||| AREA TEST |||||||||| */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fine */
