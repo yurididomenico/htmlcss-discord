@@ -58,7 +58,7 @@ nav ul
   font-weight: bold;
 }
 /* ---------- Link Testo Bianco ---------- */
-header, nav, header a, nav a
+header, nav, header a, nav a, footer a
 {
   color: white;
 }
@@ -140,6 +140,7 @@ header, nav, header a, nav a
   background-image: url('../img/stars.svg');
   background-repeat: no-repeat;
   background-position: top center;
+  background-size: 35vw;
 }
 .main-testofinale-btn
 {
@@ -166,13 +167,8 @@ header, nav, header a, nav a
 {
   color: #758ad8;
 }
-.bg-onda
-{
-  background-image: url('../img/wave.svg');
-  background-repeat: repeat;
-  width: 130vh;
-  height: 40vh;
-}
+
+
 /* |||||||||| FOOTER |||||||||| */
 footer
 {
@@ -223,6 +219,22 @@ footer
   background-color: #93a2de;
 }
 /* |||||||||| AREA TEST |||||||||| */
+/* .bg-onda
+{
+  background-image: url('../img/wave.svg');
+}
+.bg-onda-reverse
+{
+  background-image: url('../img/wave.svg');
+  height: 50vh;
+  transform: rotate(180deg);
+} */
+
+.bg-onda-reverse
+{
+  
+}
+
 
 
 
