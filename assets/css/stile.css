@@ -9,6 +9,10 @@
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
 }
+img
+{
+  display: block;
+}
 /* |||||||||| INIZIO |||||||||| */
 
 /* |||||||||| HEADER |||||||||| */
@@ -219,23 +223,14 @@ footer
   background-color: #93a2de;
 }
 /* |||||||||| AREA TEST |||||||||| */
-/* .bg-onda
+.grigiochiaro
 {
-  background-image: url('../img/wave.svg');
+  background-color: #f6f6f6;
 }
-.bg-onda-reverse
+.reverse
 {
-  background-image: url('../img/wave.svg');
-  height: 50vh;
-  transform: rotate(180deg);
-} */
-
-.bg-onda-reverse
-{
-  
+  rotate: 180deg;
 }
-
-
 
 
 
